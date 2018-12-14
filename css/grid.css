@@ -1,0 +1,14 @@
+.navigation {
+  display: grid;
+  grid-template-columns: 6fr 1fr 1fr 1fr 1fr 1fr;
+}
+.livList {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.servicesGrid{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  text-align: center;
+  height: 200px;
+}
