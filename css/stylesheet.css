@@ -51,7 +51,7 @@ background:
 linear-gradient(
   rgba(255, 204, 0, 0),
   rgba(255, 204, 0, 0)
-  ), url("https://www.jabil.com/content/dam/images/hero-images/energy-hero.jpeg.transform/pageHero/image.energy-hero.jpg") no-repeat center center fixed;
+  ), url("/images/city-image.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

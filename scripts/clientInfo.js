@@ -1,4 +1,4 @@
-function select() {
+  function select() {
 // This is an array of clients. Add to clients here!
 // You could also host this online and pull down as json later
  var clients =  [
@@ -6,8 +6,7 @@ function select() {
      id:0,
      name:"Adbul Kaba Abdullah",
      description:"Dynamic branding brochure collateral for political campaign",
-     images: ["abdul-pic.png", "abdul-pic.png", "abdul-pic.png",],
-     well:"Guess" // ??
+     images: ["abdul-pic.png", "abdul-pic.png", "abdul-pic.png",],  
    } ,
    {
      id:1,
