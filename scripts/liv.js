@@ -1,7 +1,30 @@
-var about = document.querySelector(".livDescrip")
+function companyDescrip(){
+  // Grabs the selector in html
+  var about = document.querySelector(".livDescrip")
+  // Enters in to in HTML
+  about.innerHTML = `<div>Liv is a full-service business development consulting firm promoting business management and analysis services to create optimal opportunities and growth. Liv seeks to support businesses through strategic planning and effective communications to develop dynamic brands competing in their perspective industries. Our goal is to build on-going business relationships and support systems to ensure the success of all businesses.
+  Liv has over 15+ years of experience of successful strategic planning and implementation gaining effective results in Business Development, Communications, and Project Management for businesses in the start-up, small, and corporate capacity.</div>`
+}
 
-about.innerHTML = `<div>Liv is a full-service business development consulting firm promoting business management and analysis services to create optimal opportunities and growth. Liv seeks to support businesses through strategic planning and effective communications to develop dynamic brands competing in their perspective industries. Our goal is to build on-going business relationships and support systems to ensure the success of all businesses.
-Liv has over 15+ years of experience of successful strategic planning and implementation gaining effective results in Business Development, Communications, and Project Management for businesses in the start-up, small, and corporate capacity.</div>`
+function poemLyrics() {
+  // Grabs the selector in html
+  var poem = document.querySelector(".livPoem")
+  // Enters in to in HTML
+  poem.innerHTML = `<div>Dreams give us the <strong>freedom</strong> to believe and acheive the impossible <br>
+                    As we grow together we are becoming more and more unstoppable <br>
+                    Dreams are the lilfe blood of destiny<br>
+                    \We are fearless innovators, reality creators<br>
+                    Our inspirations maifest into destinations<br>
+                    Our love and commitment is moving antiosn forward<br>
+                    Givng birth to a global perpsective for us to live as one <br>
+                    Motivating the creative thoughts of our daughters and sons<br>
+                    As we share the energy from out glowing SUN<br>
+                    We've been traveling for a long time but we know the journey has just begun<br>
+                    No matter the struggles we weill persist to LILV not merely exist<br>
+                    Life Is Valuable don't wst a minute take a second and emerge yourself in it...<br>
+                    LIV!<br>
+                    --- Dhadishi "Bull" Buchanan</div>`
+}
 
 // function gridMouseAction() {
 //   var over = document.querySelector(".serviceSelector")
@@ -17,3 +40,5 @@ Liv has over 15+ years of experience of successful strategic planning and implem
 //   }
 // }
 // gridMouseAction();
+poemLyrics()
+companyDescrip()
