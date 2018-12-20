@@ -22,8 +22,8 @@ function poemLyrics() {
                     We've been traveling for a long time but we know the journey has just begun<br>
                     No matter the struggles we weill persist to LIV not merely exist<br>
                     Life Is Valuable don't waist a minute take a second and emerge yourself in it...<br>
-                    LIV!<br>
-                    --- Dhadishi "Bull" Buchanan</div>`
+                    <span class="lyrics">LIV!</span><br>
+                    </div>`
 }
 
 // function gridMouseAction() {
