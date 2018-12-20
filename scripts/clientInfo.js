@@ -6,7 +6,7 @@
      id:0,
      name:"Adbul Kaba Abdullah",
      description:"Dynamic branding brochure collateral for political campaign",
-     images: ["abdul-pic.png", "abdul-pic.png", "abdul-pic.png",],  
+     images: ["abdul-pic.png", "abdul-pic.png", "abdul-pic.png",],
    } ,
    {
      id:1,

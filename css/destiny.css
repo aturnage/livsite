@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
+.livDescrip{
+  color: #676767;
+  margin: 1;
+  font: 1.1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 25px 10px;
+}
+.livPoem{
+  color: #676767;
+  margin: 1;
+  font: 1.1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 25px 10px;
+  text-align: center;
+}
+.lyrics{
+  /* font-weight: bold; */
+  text-transform: uppercase;
+  color: #F2D334;
+  font-style: italic;
+  font-family: 'Rock Salt', cursive;
+}

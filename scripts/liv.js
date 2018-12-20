@@ -10,18 +10,18 @@ function poemLyrics() {
   // Grabs the selector in html
   var poem = document.querySelector(".livPoem")
   // Enters in to in HTML
-  poem.innerHTML = `<div>Dreams give us the <strong>freedom</strong> to believe and acheive the impossible <br>
-                    As we grow together we are becoming more and more unstoppable <br>
+  poem.innerHTML = `<div>Dreams give us the <span class="lyrics">freedom</span> to believe and acheive the impossible <br>
+                    As we grow <span class="lyrics">together</span> we are becoming more and more unstoppable <br>
                     Dreams are the lilfe blood of destiny<br>
-                    \We are fearless innovators, reality creators<br>
-                    Our inspirations maifest into destinations<br>
-                    Our love and commitment is moving antiosn forward<br>
-                    Givng birth to a global perpsective for us to live as one <br>
-                    Motivating the creative thoughts of our daughters and sons<br>
-                    As we share the energy from out glowing SUN<br>
+                    We are fearless innovators, reality creators<br>
+                    Our inspirations manifest into destinations<br>
+                    Our love and <span class="lyrics">commitment</span> is moving nations forward<br>
+                    Givng birth to a <span class="lyrics">global</span> perpsective for us to live as one <br>
+                    Motivating the <span class="lyrics">creative</span> thoughts of our daughters and sons<br>
+                    As we share the <span class="lyrics">energy</span> from out glowing SUN<br>
                     We've been traveling for a long time but we know the journey has just begun<br>
-                    No matter the struggles we weill persist to LILV not merely exist<br>
-                    Life Is Valuable don't wst a minute take a second and emerge yourself in it...<br>
+                    No matter the struggles we weill persist to LIV not merely exist<br>
+                    Life Is Valuable don't waist a minute take a second and emerge yourself in it...<br>
                     LIV!<br>
                     --- Dhadishi "Bull" Buchanan</div>`
 }
