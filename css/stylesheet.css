@@ -108,3 +108,7 @@ linear-gradient(
   text-align: center;
   color: orange;
 }
+.footer {
+  background-color: #F2D334;
+  height: 100px;
+}
