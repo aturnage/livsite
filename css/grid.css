@@ -55,3 +55,10 @@
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqOQa14bep1GHPsq4g1tmFnn5ymHfN3etefU6GnC1xLpFI32aO");
 }
 /* END MAIN PAGE SERVICES GRID */
+
+/* CONTACT US GRID BEGINNING */
+.contactGrid {
+  display: grid;
+  grid-template-columns: 75% 25%;
+}
+/* CONTACT US GRID ENDING */

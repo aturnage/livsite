@@ -14,22 +14,24 @@
   text-align: center;
   margin: auto 0px;
 }
+.navigationText > a{
+    text-decoration: none;
+}
 .navigation {
   height: 100px;
   background-color: #F5F4F3;
 }
 .navigation > li {
-  text-decoration: none;
     margin: auto 20px;
 }
-.navigation > a:link {
-  color: white;
+.navigationText > a:link {
+  color: orange;
 }
-.navigation > a:visited {
-  color: white;
+.navigationText > a:visited {
+  color: orange;
 }
-.navigation > a:active {
-  color: green;
+.navigationText > a:active {
+  color: white;
 }
 .livLogo {
   width: 50px;
