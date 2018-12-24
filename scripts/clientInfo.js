@@ -1,3 +1,35 @@
+var money =  [
+  {
+    id:0,
+    name:"Adbul Kaba Abdullah",
+    description:"Dynamic branding brochure collateral for political campaign",
+    images: ["abdul-pic.png", "abdul-pic.png", "abdul-pic.png",],
+  } ,
+  {
+    id:1,
+    name:"National Association of Spellman College",
+    description:"Advertising collateral for fundriaisng event",
+    images: ['game-night-flyer.jpeg.jpg', 'game-night-flyer.jpeg.jpg']
+  },
+    {
+    id:2,
+    name:"Association of Spellman",
+    description:"Advertising collateral for fundriaisng event",
+    images: []
+  },
+    {
+    id:3,
+    name:"Nationwide",
+    description:"Advertising collateral for fundriaisng event",
+    images: []
+   },
+   {
+     id:4,
+     name:"Spellman College",
+     description:"Advertising collateral for fundriaisng event",
+     images: []
+   }
+ ]
   function select() {
 // This is an array of clients. Add to clients here!
 // You could also host this online and pull down as json later
@@ -66,6 +98,13 @@
        </option>`
      )}`
 }
+var post = document.querySelector(".pics")
+money.forEach(function (pics){
+  post.innerHTML += `<div>${pics.name}</div>
+                    <div>${pics.description}</div>
+                    <div class='image'>${pics.images.map(img=> `<img src="./images/${img}">`)}
+                    </div>`
+})
 select()
 
 
