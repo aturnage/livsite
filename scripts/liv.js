@@ -10,7 +10,8 @@ function poemLyrics() {
   // Grabs the selector in html
   var poem = document.querySelector(".livPoem")
   // Enters in to in HTML
-  poem.innerHTML = `<div>Dreams give us the <span class="lyrics">freedom</span> to believe and acheive the impossible <br>
+  poem.innerHTML = `<div>
+                    Dreams give us the <span class="lyrics">freedom</span> to believe and acheive the impossible <br>
                     As we grow <span class="lyrics">together</span> we are becoming more and more unstoppable <br>
                     Dreams are the lilfe blood of destiny<br>
                     We are fearless innovators, reality creators<br>

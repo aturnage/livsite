@@ -16,9 +16,20 @@
 }
 .navigation {
   height: 100px;
+  background-color: #F5F4F3;
 }
 .navigation > li {
   text-decoration: none;
+    margin: auto 20px;
+}
+.navigation > a:link {
+  color: white;
+}
+.navigation > a:visited {
+  color: white;
+}
+.navigation > a:active {
+  color: green;
 }
 .livLogo {
   width: 50px;
@@ -50,8 +61,8 @@
 .tinted-image{
 background:
 linear-gradient(
-  rgba(255, 204, 0, 0),
-  rgba(255, 204, 0, 0)
+  rgba(255, 204, 0, 0.55),
+  rgba(255, 204, 0, 0.55)
   ), url("/images/city-image.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
