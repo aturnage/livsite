@@ -14,7 +14,7 @@
   text-align: center;
   margin: auto 0px;
 }
-.navigationText > a{
+.navigationText > a {
     text-decoration: none;
 }
 .navigation {
@@ -34,6 +34,9 @@
   color: white;
 }
 .navigationText > a:hover {
+  color: darkgray;
+}
+.navigationText a:hover {
   color: darkgray;
 }
 .livLogo {
@@ -109,16 +112,41 @@ linear-gradient(
 }
 /* END OF TONY CODE */
 
-.tryWord{
+.tryWord {
   font-size: 24px;
   text-align: center;
   color: orange;
 }
 .footer {
   background-color: #F2D334;
-  height: 100px;
 }
-.clientFormat{
+.footerLetterStyle {
+  list-style-type: none;
+  font-family: 'Anton', sans-serif;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0px 0px 0px 10px;
+}
+.footerLetterStyle > a:link {
+  color: white;
+}
+.footerLetterStyle > a:visited {
+  color: white;
+}
+.footerLetterStyle > a:active {
+  color: white;
+}
+.footerLetterStyle > a:hover {
+  color: darkgray;
+}
+.footerLetterStyle a:hover {
+  color: darkgray;
+}
+.footerLetterStyle > a {
+    text-decoration: none;
+}
+.clientFormat {
   margin: 10px 0px 10px 0px;
-
 }
