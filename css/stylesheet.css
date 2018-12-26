@@ -111,7 +111,7 @@ linear-gradient(
   width: 100%
 }
 
-.image > img{
+.image > img {
   width: 100%
 }
 /* END OF TONY CODE */
@@ -124,4 +124,8 @@ linear-gradient(
 .footer {
   background-color: #F2D334;
   height: 100px;
+}
+.clientFormat{
+  margin: 10px 0px 10px 0px;
+
 }

@@ -8,25 +8,25 @@ var money =  [
   {
     id:1,
     name:"National Association of Spellman College",
-    description:"Advertising collateral for fundriaisng event",
+    description:"Advertising collateral for fundraising event",
     images: ['game-night-flyer.jpeg.jpg', 'game-night-flyer.jpeg.jpg']
   },
     {
     id:2,
     name:"Association of Spellman",
-    description:"Advertising collateral for fundriaisng event",
+    description:"Advertising collateral for fundraising event",
     images: []
   },
     {
     id:3,
     name:"Nationwide",
-    description:"Advertising collateral for fundriaisng event",
-    images: []
+    description:"Advertising collateral for fundraising event",
+    images: ['melvin-turnage-band.jpg']
    },
    {
      id:4,
      name:"Spellman College",
-     description:"Advertising collateral for fundriaisng event",
+     description:"Advertising collateral for fundraising event",
      images: []
    }
  ]
@@ -98,11 +98,14 @@ var money =  [
        </option>`
      )}`
 }
+
+// loops through each client and displays client information
 var post = document.querySelector(".pics")
 money.forEach(function (pics){
-  post.innerHTML += `<div>${pics.name}</div>
+  post.innerHTML += `<div class="clientFormat">
+                    <div>${pics.name}</div>
                     <div>${pics.description}</div>
-                    <div class='image'>${pics.images.map(img=> `<img src="./images/${img}">`)}
+                    <div class='image'>${pics.images.map(img => `<img src="./images/${img}">`)}</div>
                     </div>`
 })
 select()

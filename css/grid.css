@@ -62,3 +62,10 @@
   grid-template-columns: 75% 25%;
 }
 /* CONTACT US GRID ENDING */
+
+/* CLIENT INFO GRID BEGINNING */
+.pics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+/* CLIENT INFO GRID BEGINNING */
