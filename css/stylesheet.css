@@ -19,19 +19,22 @@
 }
 .navigation {
   height: 100px;
-  background-color: #F5F4F3;
+  background-color: #E0E6EC;
 }
 .navigation > li {
     margin: auto 20px;
 }
 .navigationText > a:link {
-  color: orange;
+  color: #ffcc00;
 }
 .navigationText > a:visited {
-  color: orange;
+  color: #ffcc00;
 }
 .navigationText > a:active {
   color: white;
+}
+.navigationText > a:hover {
+  color: darkgray;
 }
 .livLogo {
   width: 50px;
@@ -43,43 +46,33 @@
   text-transform: uppercase;
   color: orange;
   text-decoration: none;
+  font-size: 25px;
 }
 .letterStyle {
   list-style-type: none;
   font-family: 'Anton', sans-serif;
   /* color:white; */
 }
-
-.tinted-images {
-  background:
-  /* top, transparent red */
-  linear-gradient(
-    rgba(255, 120, 0, 0.45),
-    rgba(255, 0, 0, .45)
-    ),
-    /* bottom, image */
-    url("https://lh3.googleusercontent.com/proxy/7JlH0S8reAEyLiaTS-uL5C_9bUenGaBOx04gudZ980gnJoQ66gDUz6QoZzLx5nxwclEWWXo2L8eGrnxmCXDDpgbr=w530-h297-n");
-}
-.tinted-image{
+.tinted-image {
 background:
 linear-gradient(
-  rgba(255, 204, 0, 0.55),
-  rgba(255, 204, 0, 0.55)
+  rgba(255, 204, 0, 0.80),
+  rgba(255, 204, 0, 0.80)
   ), url("/images/city-image.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 600px;
+  height: 700px;
   color: rgba(255, 255, 255, .75);
 }
 .textCentered {
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Anton', sans-serif;
-    font-size:400px;
+    font-size: 300px;
 }
 .title {
   color: rgba(255, 204, 0, 1.0);
