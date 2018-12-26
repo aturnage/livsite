@@ -150,3 +150,12 @@ linear-gradient(
 .clientFormat {
   margin: 10px 0px 10px 0px;
 }
+.clientTitle {
+  color:gray;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+}
+.clientDescrip {
+  color:darkgray;
+}
