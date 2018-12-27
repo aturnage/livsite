@@ -69,5 +69,10 @@
 /* FOOTER GRID BEGINNING */
 .footerGrid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 25% 75%;
+}
+/* Print GRID BEGINNING */
+.print {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }

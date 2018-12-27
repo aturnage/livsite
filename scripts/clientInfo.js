@@ -54,6 +54,7 @@ var money =  [
      images: ['sara-lee-logo.png']
    }
  ]
+
 //   function select() {
 // // This is an array of clients. Add to clients here!
 // // You could also host this online and pull down as json later
@@ -132,6 +133,7 @@ money.forEach(function (pics){
                     <div class="clientDescrip">${pics.description}</div>
                     </div>`
 })
+
 // select()
 
 // This line allows for the desciption to be added from the function
