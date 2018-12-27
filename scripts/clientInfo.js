@@ -43,7 +43,7 @@ var money =  [
    },
    {
      id:7,
-     name:"Saavy Coders",
+     name:"Savvy Coders",
      description:"At Savvy Coders, we believe in empowering people to take a bold step toward a better career. We believe that coding is the indispensable skill of the 21st century.",
      images: ['savvy-coders-logo.png']
    },
