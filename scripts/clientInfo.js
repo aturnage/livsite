@@ -3,31 +3,55 @@ var money =  [
     id:0,
     name:"Adbul Kaba Abdullah",
     description:"Dynamic branding brochure collateral for political campaign",
-    images: ["abdul-pic.png", "abdul-pic.png", "abdul-pic.png",],
+    images: ['abdul-pic.png']
   } ,
   {
     id:1,
-    name:"National Association of Spellman College - Saint Louis Chapter",
+    name:"Conagra",
     description:"Advertising collateral for fundraising event",
-    images: ['game-night-flyer.jpeg.jpg', 'game-night-flyer.jpeg.jpg']
+    images: ['conagra-foods-logo.png'],
   },
-    {
+  {
     id:2,
-    name:"Association of Spellman",
+    name:"It's Your Birthday, Inc.",
     description:"Advertising collateral for fundraising event",
-    images: []
+    images: ['iybi-logo.gif'],
   },
     {
     id:3,
-    name:"Nationwide",
+    name:"The Legendary Melvin Turnage Band",
     description:"Advertising collateral for fundraising event",
-    images: ['melvin-turnage-band.jpg']
+    images: ['mtb-logo.png']
+  },
+    {
+    id:4,
+    name:"National Association of Spellman College - St. Louis Chapter",
+    description:"Advertising collateral for fundraising event",
+    images: ['naasc-stl.png']
    },
    {
-     id:4,
-     name:"Spellman College",
+     id:5,
+     name:"Prince Hall Collegiate Society",
      description:"Advertising collateral for fundraising event",
-     images: []
+     images: ['PHCS-logo-web.png']
+   },
+   {
+     id:6,
+     name:"Royal Vagabonds Foundation",
+     description:"Advertising collateral for fundraising event",
+     images: ['royal-vagabond-logo.png']
+   },
+   {
+     id:7,
+     name:"Saavy Coders",
+     description:"Advertising collateral for fundraising event",
+     images: ['savvy-coders-logo.png']
+   },
+   {
+     id:8,
+     name:"Sarah Lee Foods",
+     description:"Advertising collateral for fundraising event",
+     images: ['sara-lee-logo.png']
    }
  ]
 //   function select() {
@@ -38,30 +62,30 @@ var money =  [
 //      id:0,
 //      name:"Adbul Kaba Abdullah",
 //      description:"Dynamic branding brochure collateral for political campaign",
-//      images: ["abdul-pic.png", "abdul-pic.png", "abdul-pic.png",],
+//      images: ["abdul-pic.png", "abdul-pic.png", "abdul-pic.png",]
 //    } ,
 //    {
 //      id:1,
 //      name:"National Association of Spellman College",
-//      description:"Advertising collateral for fundriaisng event",
+//      description:"Advertising collateral for fundraising event",
 //      images: ['game-night-flyer.jpeg.jpg', 'game-night-flyer.jpeg.jpg']
 //    },
 //      {
 //      id:2,
 //      name:"Association of Spellman",
-//      description:"Advertising collateral for fundriaisng event",
+//      description:"Advertising collateral for fundraising event",
 //      images: []
 //    },
 //      {
 //      id:3,
 //      name:"Nationwide",
-//      description:"Advertising collateral for fundriaisng event",
+//      description:"Advertising collateral for fundraising event",
 //      images: []
 //     },
 //     {
 //       id:4,
 //       name:"Spellman College",
-//       description:"Advertising collateral for fundriaisng event",
+//       description:"Advertising collateral for fundraising event",
 //       images: []
 //     }
 //   ]
@@ -76,7 +100,7 @@ var money =  [
 //        <div>${client.name}</div>
 //        <div>${client.description}</div>
 //        <div class='image'>
-//         ${client.images.map(img=> `<img src="./images/${img}">`)}
+//         ${client.images.map(img=> `<img src="/images/${img}">`)}
 //        </div>
 //       </div>`
 //   }
@@ -85,7 +109,7 @@ var money =  [
 //   const selectWrapper = document.getElementById('client-select-wrapper')
 //   let select = `<select id='client-select'></select>`
 //
-//   selectWrapper.innerHTML = select;
+//   selectWrapper.innerHTML = select
 //   select = document.getElementById('client-select')
 //   select.addEventListener("change", onChange)
 //   // map through clients array to generate the selct options for each client
@@ -105,7 +129,7 @@ money.forEach(function (pics){
   post.innerHTML += `<div class="clientFormat">
                     <div class="clientTitle">${pics.name}</div>
                     <div class="clientDescrip">${pics.description}</div>
-                    <div class='image'>${pics.images.map(img => `<img src="./images/${img}">`)}</div>
+                    <div class='image'>${pics.images.map(img => `<img src="/images/${img}">`)}</div>
                     </div>`
 })
 // select()
