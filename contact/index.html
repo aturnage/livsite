@@ -6,7 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="/css/stylesheet.css">
   <link rel="stylesheet" href="/css/grid.css">
-  <link rel="stylesheet" href="/css/destiny.css">
   <title>Liv | Contact Us</title>
 </head>
 <body>
@@ -15,27 +14,39 @@
   </div>
   <div class="navigation navigationLetterStyle"></div>
   <div class="contactGrid">
-    <div>
-      <p>Looking to work with the leaders in marketing management? Well, look no further! Send us a message below or give us a call. We can’t wait to hear from you!</p>
-      <p>LIV CONSULTING</p>
-      <p>4818 Washington Blvd, Saint Louis, MO 63108</p>
-      <p>314.495.0088 phone</p>
-      <form action="">
-        <p>Your Name</p>
-        <input type="name">
-        <p>Your Email</p>
-        <input type="name">
-        <p>Your Name</p>
-        <input type="name">
-        <p>Tell Us How We Can Assist</p>
-        <input type="name"> <br>
-        <input type="submit">
-      </form>
+    <div class="contact">
+      <p class="contactSpacing">Looking to work with the leaders in marketing management? Well, look no further! Send us a message below or give us a call. We can’t wait to hear from you!</p>
+      <p class="contactTitle contactSpacing">LIV CONSULTING</p>
+      <p class="contactSpacing">4818 Washington Blvd, Saint Louis, MO 63108</p>
+      <p class="contactSpacing">314.495.0088 phone</p>
+      <form class="formHeader" method="POST">
+        <div>
+          <label class="contactTitle" for="Name">
+            Name (required)
+          </label>
+          <input type="text" label="Applicant Name" placeholder="Andrew Turnage" name="name" required autofocus>
+        </div>
+        <div>
+          <label class="contactTitle" for="email" required>
+            Email (required)
+          </label>
+          <input type="text" label="email" required>
+        </div>
+        <div>
+          <label class="contactTitle" for="description">
+            How can we assist? (required)
+          </label>
+          <textarea name="sellingPoints" rows="8" cols="40" required></textarea>
+        </div>
+        <div>
+          <input type="submit" value="Send">
+      </div>
     </div>
+    </form>
     <div class="location">
-        <p>Directions to out office</p>
+        <p class="contactTitle">Directions to our office</p>
         <p>We are conveniently located in the Central West End in the Tech Artista building</p>
-      MAP TO TECH ARTISTA
+        <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3115.9523102364906!2d-90.26239924888355!3d38.64997686899489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87d8b4d507ff2b93%3A0x61a11dc3fd68ca43!2sTechArtista+CWE!5e0!3m2!1sen!2sus!4v1545875207944" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe></p>
     </div>
   </div>
   <div class="footer"></div>
