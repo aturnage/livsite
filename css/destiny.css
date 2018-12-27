@@ -2,14 +2,17 @@
 .livDescrip{
   color: #676767;
   margin: 1;
-  font: 1.1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* font: 1.1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  font-family: 'Roboto', sans-serif;
   padding: 25px 10px;
 }
 .livPoem{
   color: #676767;
   margin: 1;
-  font: 1.1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  padding: 25px 10px;
+  /* font: 1.1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  padding: 25px;
   text-align: center;
 }
 .lyrics{

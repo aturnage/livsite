@@ -26,10 +26,10 @@
     margin: auto 20px;
 }
 .navigationText > a:link {
-  color: #ffcc00;
+  color: white;
 }
 .navigationText > a:visited {
-  color: #ffcc00;
+  color: white;
 }
 .navigationText > a:active {
   color: white;
@@ -48,7 +48,6 @@
   list-style-type: none;
   font-family: 'Anton', sans-serif;
   text-transform: uppercase;
-  color: orange;
   text-decoration: none;
   font-size: 25px;
 }
@@ -86,7 +85,7 @@ linear-gradient(
 }
 .descrip {
   color: rgba(175, 175, 175, 1.0);
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 30px;
   padding: 0px 0px 50px 0px;
 }
@@ -176,7 +175,12 @@ linear-gradient(
 }
 .formHeader > div > input {
     width: 100%;
+    margin: 5px 5px 5px 0px;
 }
 .formHeader > div > textarea {
     width: 100%;
+    margin: 5px 5px 5px 0px
+}
+.location > p {
+    margin: 5px;
 }
