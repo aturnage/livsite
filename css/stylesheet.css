@@ -103,12 +103,10 @@ linear-gradient(
   background-color: black;
   color: lightgrey;
 }
-.image{
-  width: 100%
-}
-
 .image > img {
-  width: 100px
+  height: 100px;
+  display: block;
+  margin: 0 auto;
 }
 /* END OF TONY CODE */
 
@@ -122,11 +120,11 @@ linear-gradient(
 }
 .footerLetterStyle {
   list-style-type: none;
-  font-family: 'Anton', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   color: white;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 15px;
   margin: 0px 0px 0px 10px;
 }
 .footerLetterStyle > a:link {
@@ -148,16 +146,20 @@ linear-gradient(
     text-decoration: none;
 }
 .clientFormat {
-  margin: 10px 0px 10px 0px;
+  margin: 40px 0px 10px 0px;
 }
 .clientTitle {
   color:gray;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 15px;
+  text-align: center;
+  padding: 0 5px;
+
 }
 .clientDescrip {
   color:darkgray;
+  padding: 0 5px;
 }
 .location, .contact {
   margin: 40px 50px 25px 50px;
@@ -183,4 +185,13 @@ linear-gradient(
 }
 .location > p {
     margin: 5px;
+}
+.end {
+  color:white;
+  text-align: center;
+  background-color: #F2D334;
+  padding: 50px 0;
+}
+.footerGrid > div > li > a {
+  margin: 0 0 0 10px;
 }
