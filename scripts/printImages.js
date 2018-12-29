@@ -10,5 +10,3 @@ var printImages = [
     <div class='image'>${pics.images.map(img => `<img src="/printImages/${img}">`)}</div>
     </div>`
   })
-// }
-// shine();
