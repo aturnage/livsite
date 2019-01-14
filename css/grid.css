@@ -76,3 +76,51 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
+
+@media (max-width: 1100px) {
+  .print {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 900px) {
+  .print {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footerGrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .pics {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .contactGrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+}
+@media (max-width: 700px) {
+  .print {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .footerGrid {
+    display: grid;
+    grid-template-columns: 100% 0%;
+  }
+  .pics {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .navigation {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    height: 200px;
+  }
+  .contactGrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
