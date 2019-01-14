@@ -26,6 +26,42 @@ var printImages = [
 {
   id: 6,
   images:['BrandyCruesoeLogo(combine).png']
+},
+{
+  id: 7,
+  images:['savvycoders-demo-day.png']
+},
+{
+  id: 8,
+  images:['SkatePartyFlyer(Final).jpg']
+},
+{
+  id: 9,
+  images:['ThrowbackFlyerFinal.jpg']
+},
+{
+  id: 10,
+  images:['WebsiteLaunchFlyer.jpg']
+},
+{
+  id: 11,
+  images:['ImJustJokingFlyer.jpg']
+},
+{
+  id: 12,
+  images:['Mailer(front).jpg']
+},
+{
+  id: 13,
+  images:['MasonInvitation.jpg']
+},
+{
+  id: 14,
+  images:['TriviaNight(6.3.17).png']
+},
+{
+  id: 15,
+  images:['eventbrite-image.jpg']
 }
 ]
 // function shine(){
