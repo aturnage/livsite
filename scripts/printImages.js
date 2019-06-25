@@ -68,7 +68,7 @@ var printImages = [
   var printer = document.querySelector(".print")
   printImages.forEach(function (pics){
     printer.innerHTML += `<div class="clientFormat">
-    <div class='image'>${pics.images.map(img => `<img src="/printImages/${img}">`)}</div>
+    <div class='image'>${pics.images.map(img => `<img src="/printimages/${img}">`)}</div>
     </div>
     `
   })
